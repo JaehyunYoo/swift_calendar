@@ -11,7 +11,39 @@
 		DABF20A82BB6BFB000D3C8CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF20A72BB6BFB000D3C8CA /* ContentView.swift */; };
 		DABF20AA2BB6BFB200D3C8CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABF20A92BB6BFB200D3C8CA /* Assets.xcassets */; };
 		DABF20AE2BB6BFB200D3C8CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABF20AD2BB6BFB200D3C8CA /* Preview Assets.xcassets */; };
+		DABF20BB2BB6BFDA00D3C8CA /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABF20BA2BB6BFDA00D3C8CA /* WidgetKit.framework */; };
+		DABF20BD2BB6BFDA00D3C8CA /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABF20BC2BB6BFDA00D3C8CA /* SwiftUI.framework */; };
+		DABF20C02BB6BFDA00D3C8CA /* CalendarWidgetHomeBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF20BF2BB6BFDA00D3C8CA /* CalendarWidgetHomeBundle.swift */; };
+		DABF20C22BB6BFDA00D3C8CA /* CalendarWidgetHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF20C12BB6BFDA00D3C8CA /* CalendarWidgetHome.swift */; };
+		DABF20C42BB6BFDA00D3C8CA /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF20C32BB6BFDA00D3C8CA /* AppIntent.swift */; };
+		DABF20C62BB6BFDB00D3C8CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABF20C52BB6BFDB00D3C8CA /* Assets.xcassets */; };
+		DABF20CA2BB6BFDB00D3C8CA /* CalendarWidgetHomeExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DABF20B82BB6BFDA00D3C8CA /* CalendarWidgetHomeExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DABF20F02BB99C8D00D3C8CA /* CalendarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF20EF2BB99C8D00D3C8CA /* CalendarTest.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DABF20C82BB6BFDB00D3C8CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABF209A2BB6BFB000D3C8CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABF20B72BB6BFDA00D3C8CA;
+			remoteInfo = CalendarWidgetHomeExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DABF20CE2BB6BFDB00D3C8CA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DABF20CA2BB6BFDB00D3C8CA /* CalendarWidgetHomeExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DABF20A22BB6BFB000D3C8CA /* widgetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = widgetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +52,15 @@
 		DABF20A92BB6BFB200D3C8CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DABF20AB2BB6BFB200D3C8CA /* widgetTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = widgetTest.entitlements; sourceTree = "<group>"; };
 		DABF20AD2BB6BFB200D3C8CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DABF20B82BB6BFDA00D3C8CA /* CalendarWidgetHomeExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CalendarWidgetHomeExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABF20BA2BB6BFDA00D3C8CA /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DABF20BC2BB6BFDA00D3C8CA /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DABF20BF2BB6BFDA00D3C8CA /* CalendarWidgetHomeBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWidgetHomeBundle.swift; sourceTree = "<group>"; };
+		DABF20C12BB6BFDA00D3C8CA /* CalendarWidgetHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWidgetHome.swift; sourceTree = "<group>"; };
+		DABF20C32BB6BFDA00D3C8CA /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		DABF20C52BB6BFDB00D3C8CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DABF20C72BB6BFDB00D3C8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABF20EF2BB99C8D00D3C8CA /* CalendarTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +71,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DABF20B52BB6BFDA00D3C8CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABF20BD2BB6BFDA00D3C8CA /* SwiftUI.framework in Frameworks */,
+				DABF20BB2BB6BFDA00D3C8CA /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -37,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				DABF20A42BB6BFB000D3C8CA /* widgetTest */,
+				DABF20BE2BB6BFDA00D3C8CA /* CalendarWidgetHome */,
+				DABF20B92BB6BFDA00D3C8CA /* Frameworks */,
 				DABF20A32BB6BFB000D3C8CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				DABF20A22BB6BFB000D3C8CA /* widgetTest.app */,
+				DABF20B82BB6BFDA00D3C8CA /* CalendarWidgetHomeExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +122,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DABF20B92BB6BFDA00D3C8CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DABF20BA2BB6BFDA00D3C8CA /* WidgetKit.framework */,
+				DABF20BC2BB6BFDA00D3C8CA /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DABF20BE2BB6BFDA00D3C8CA /* CalendarWidgetHome */ = {
+			isa = PBXGroup;
+			children = (
+				DABF20BF2BB6BFDA00D3C8CA /* CalendarWidgetHomeBundle.swift */,
+				DABF20C12BB6BFDA00D3C8CA /* CalendarWidgetHome.swift */,
+				DABF20C32BB6BFDA00D3C8CA /* AppIntent.swift */,
+				DABF20EF2BB99C8D00D3C8CA /* CalendarTest.swift */,
+				DABF20C52BB6BFDB00D3C8CA /* Assets.xcassets */,
+				DABF20C72BB6BFDB00D3C8CA /* Info.plist */,
+			);
+			path = CalendarWidgetHome;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +154,34 @@
 				DABF209E2BB6BFB000D3C8CA /* Sources */,
 				DABF209F2BB6BFB000D3C8CA /* Frameworks */,
 				DABF20A02BB6BFB000D3C8CA /* Resources */,
+				DABF20CE2BB6BFDB00D3C8CA /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DABF20C92BB6BFDB00D3C8CA /* PBXTargetDependency */,
 			);
 			name = widgetTest;
 			productName = widgetTest;
 			productReference = DABF20A22BB6BFB000D3C8CA /* widgetTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DABF20B72BB6BFDA00D3C8CA /* CalendarWidgetHomeExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABF20CB2BB6BFDB00D3C8CA /* Build configuration list for PBXNativeTarget "CalendarWidgetHomeExtension" */;
+			buildPhases = (
+				DABF20B42BB6BFDA00D3C8CA /* Sources */,
+				DABF20B52BB6BFDA00D3C8CA /* Frameworks */,
+				DABF20B62BB6BFDA00D3C8CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalendarWidgetHomeExtension;
+			productName = CalendarWidgetHomeExtension;
+			productReference = DABF20B82BB6BFDA00D3C8CA /* CalendarWidgetHomeExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +194,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					DABF20A12BB6BFB000D3C8CA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DABF20B72BB6BFDA00D3C8CA = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -118,6 +215,7 @@
 			projectRoot = "";
 			targets = (
 				DABF20A12BB6BFB000D3C8CA /* widgetTest */,
+				DABF20B72BB6BFDA00D3C8CA /* CalendarWidgetHomeExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +227,14 @@
 			files = (
 				DABF20AE2BB6BFB200D3C8CA /* Preview Assets.xcassets in Resources */,
 				DABF20AA2BB6BFB200D3C8CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABF20B62BB6BFDA00D3C8CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABF20C62BB6BFDB00D3C8CA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +250,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DABF20B42BB6BFDA00D3C8CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABF20C22BB6BFDA00D3C8CA /* CalendarWidgetHome.swift in Sources */,
+				DABF20C02BB6BFDA00D3C8CA /* CalendarWidgetHomeBundle.swift in Sources */,
+				DABF20C42BB6BFDA00D3C8CA /* AppIntent.swift in Sources */,
+				DABF20F02BB99C8D00D3C8CA /* CalendarTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DABF20C92BB6BFDB00D3C8CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DABF20B72BB6BFDA00D3C8CA /* CalendarWidgetHomeExtension */;
+			targetProxy = DABF20C82BB6BFDB00D3C8CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DABF20AF2BB6BFB200D3C8CA /* Debug */ = {
@@ -264,6 +389,7 @@
 		DABF20B22BB6BFB200D3C8CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = widgetTest/widgetTest.entitlements;
@@ -300,6 +426,7 @@
 		DABF20B32BB6BFB200D3C8CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = widgetTest/widgetTest.entitlements;
@@ -333,6 +460,63 @@
 			};
 			name = Release;
 		};
+		DABF20CC2BB6BFDB00D3C8CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalendarWidgetHome/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CalendarWidgetHome;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftUi.widgetTest.CalendarWidgetHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DABF20CD2BB6BFDB00D3C8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalendarWidgetHome/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CalendarWidgetHome;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftUi.widgetTest.CalendarWidgetHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -350,6 +534,15 @@
 			buildConfigurations = (
 				DABF20B22BB6BFB200D3C8CA /* Debug */,
 				DABF20B32BB6BFB200D3C8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABF20CB2BB6BFDB00D3C8CA /* Build configuration list for PBXNativeTarget "CalendarWidgetHomeExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABF20CC2BB6BFDB00D3C8CA /* Debug */,
+				DABF20CD2BB6BFDB00D3C8CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
